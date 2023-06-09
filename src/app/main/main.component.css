@@ -1,0 +1,387 @@
+.img{
+    background-size: cover;
+    background-image: url(/assets/img/1624.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100vh - 20px);
+}
+.container{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.play{
+    color: rgb(0,250,223);
+    font-weight: bolder;
+    letter-spacing: 4px;
+    font-size: 50px;
+    line-height: 53px;
+    margin-top: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tournament{
+    font-size: 100px;
+    line-height: 91px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+.compete{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: 19px;
+    width: 550px;
+    margin-top: 20px;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.btn{
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 11px 32px;
+    background: linear-gradient(351.09deg, #F029A0 4.36%, #F0B000 117.5%);
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+    border-radius: 25px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgb(240,123,63);
+    background: linear-gradient(90deg, rgba(240,123,63,1) 26%, rgba(240,70,125,1) 100%);
+}
+.second{
+    background-color: #0e063d;
+    height: fit-content;
+}
+.cover{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    background: linear-gradient(178.07deg, #4609C3 -9.74%, #0E063D 82.69%);
+    box-shadow: 0px -122px 50px rgb(37 15 116 / 56%);
+    border-radius: 20px;
+    padding-left: 80px;
+    padding-top: 80px;
+    color: white;
+    width: 60%;
+    height: fit-content;
+}
+.available{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 57px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+}
+.constantly{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.group-img{
+    display: flex;
+    overflow-x: scroll;
+    width: 93%;
+    height: fit-content;
+}
+.group-img::-webkit-scrollbar {
+    display: none;
+} 
+.game-1 img{
+    margin-right: 30px;
+    margin-top: 30px;
+    width: 240px;
+    height: auto;
+}
+.second a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.btn-2{
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 11px 32px;
+    background: linear-gradient(351.09deg, #F029A0 4.36%, #F0B000 117.5%);
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+    border-radius: 25px;
+    cursor: pointer;
+    width: fit-content;
+}
+.btn-2:hover{
+    background: rgb(240,123,63);
+    background: linear-gradient(90deg, rgba(240,123,63,1) 26%, rgba(240,70,125,1) 100%);
+}
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-top: 100px;
+}
+.how{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 57px;
+    color: white;
+    
+}
+.parag{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+.box{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icon1, .icon2, .icon3{
+    margin-right: 100px;
+}
+.icon1, .icon2, .icon3, .icon4{
+    padding: 23px 25px;
+    position: relative;
+    background: #4609C3;
+    border-radius: 10px;
+}
+.icon1::after{
+    content: "1";
+    left: 82px;
+    top: -10px;
+    background: linear-gradient(351.09deg, #F029A0 4.36%, #F0B000 117.5%);
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+    border-radius: 50%;
+    padding: 4px 8px;
+    position: absolute;
+    color: white;
+}
+.icon2::after{
+    content: "2";
+    left: 82px;
+    top: -10px;
+    background: linear-gradient(351.09deg, #F029A0 4.36%, #F0B000 117.5%);
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+    border-radius: 50%;
+    padding: 4px 8px;
+    position: absolute;
+    color: white;
+}
+.icon3::after{
+    content: "3";
+    left: 82px;
+    top: -10px;
+    background: linear-gradient(351.09deg, #F029A0 4.36%, #F0B000 117.5%);
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+    border-radius: 50%;
+    padding: 4px 8px;
+    position: absolute;
+    color: white;
+}
+.icon4::after{
+    content: "4";
+    left: 82px;
+    top: -10px;
+    background: linear-gradient(351.09deg, #F029A0 4.36%, #F0B000 117.5%);
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+    border-radius: 50%;
+    padding: 4px 8px;
+    position: absolute;
+    color: white;
+}
+.games{
+    padding-bottom: 150px;
+}
+.third{
+    background-color: #0e053b;
+    height: fit-content;
+    padding-bottom: 30px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.browse{
+    color: white;
+    font-size: 75px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.find{
+    color: white;
+    font-weight: 600;
+    font-size: 19px;
+    width: 550px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+select, .select input{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: none;
+    color: white;
+    border: none;
+}
+option{
+    background-color: #0d0d59;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 500px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+}
+.first-content{
+    border: 2px solid #edb8ff;
+    width: 65%;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.first-content img{
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+.whole-content h1{
+    color: white;
+}
+.whole-content{
+    margin-left: 25px;
+}
+
+.time{
+    display: flex;
+    gap: 30px;
+}
+.time-1, .time-2{
+    background-color: #21156e;
+    padding: 15px 25px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-size: 19px;
+    color: white;
+
+}
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin-top: 20px;
+}
+.box-1{
+    border: 1px solid #281d61;
+    width: fit-content;
+    margin-top: 15px;
+    padding: 20px 30px;
+}
+.entry, .cost{
+    text-align: center;
+}
+.entry{
+    color: white;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+.cost{
+    color: #00FADF;
+    font-weight: bold;
+}
+.box-container{
+    display: flex;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+}
+.prize{
+    border: 1px solid #281d61;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+
+    margin: 15px 15px 15px 100px;
+}
+.dollar{
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.prize a div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 27px;
+    padding: 10px 20px;
+    background: linear-gradient(351.09deg, #F029A0 4.36%, #F0B000 117.5%);
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+
+    color: white;
+}
+.prize a div:hover{
+    background: rgb(240,123,63);
+    background: linear-gradient(90deg, rgba(240,123,63,1) 26%, rgba(240,70,125,1) 100%);
+}
+.top-player{
+    width: 150px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}

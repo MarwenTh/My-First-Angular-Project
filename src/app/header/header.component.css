@@ -1,0 +1,43 @@
+.container-header{
+    display: flex;
+    justify-content: space-around;
+}
+.content-header, .logsign{
+    display: flex;
+    margin-right: 100px;
+}
+.content-header div{
+    margin-right: 20px;
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+    width: fit-content;
+    height: fit-content;
+    font-size: 19px;
+}
+.content-header div:hover{
+    color: #00ebc2;
+    cursor: pointer;
+}
+.logsign a{
+    margin-top: 40px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+    height: fit-content;
+    width: fit-content;
+    font-size: 19px;
+
+}
+.logsign a:hover{
+    color: #00ebc2;
+    cursor: pointer;
+}
+.logsign{
+    margin-right: 500px;
+}
+.img img{
+    margin-left: 400px;
+    margin-top: 32px;
+}
